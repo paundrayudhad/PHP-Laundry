@@ -6,7 +6,7 @@ use Kreait\Firebase\ServiceAccount;
 
 // Ganti path/to/your-service-account.json dengan path file json yang Anda unduh dari Firebase
 $firebase = (new Factory)
-    ->withServiceAccount('phpnative-871be-firebase-adminsdk-vni5i-b6e78557b9.json')
+    ->withServiceAccount('phpnative-871be-firebase-adminsdk-vni5i-48c5a0762b.json')
     ->withDatabaseUri('https://phpnative-871be-default-rtdb.asia-southeast1.firebasedatabase.app/');
 
 $database = $firebase->createDatabase();
